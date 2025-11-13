@@ -1,0 +1,14 @@
+{
+  "policies": [
+    { "id": "p1", "policyNumber": "POL-10001", "type": "auto", "customerName": "Alice Johnson", "premium": 89.5, "coverage": 20000, "startDate": "2025-01-01", "endDate": "2026-01-01", "status": "active" }
+  ],
+  "claims": [
+    { "id": "cl-2001", "policyNumber": "POL-10001", "amount": 1200.5, "status": "approved" }
+  ],
+  "customers": [
+    { "id": "c1", "name": "Alice Johnson", "email": "alice@example.com", "phone": "+1-555-1111", "policies": ["POL-10001"] }
+  ],
+  "underwriting": []
+}
+
+

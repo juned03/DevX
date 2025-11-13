@@ -1,0 +1,6 @@
+[
+  {"id":"cl-2001","policyNumber":"POL-10001","amount":1200.5,"status":"approved","description":"Rear bumper damage"},
+  {"id":"cl-2002","policyNumber":"POL-10002","amount":550.0,"status":"pending","description":"Windshield replacement"}
+]
+
+

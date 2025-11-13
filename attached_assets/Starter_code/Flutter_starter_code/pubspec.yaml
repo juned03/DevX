@@ -1,0 +1,29 @@
+name: insurance_portal_flutter
+description: Insurance Portal – Flutter starter template (Golden Repo)
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+  provider: ^6.1.2
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/insurancePolicies.json
+    - assets/data/customers.json
+    - assets/data/claims.json
+
+
